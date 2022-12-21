@@ -1,0 +1,4 @@
+hours_worked = input("Enter hours worked: ")
+hourly_rate = input("Enter hourly rate: ")  # These are strings and need to be converted
+pay = float(hours_worked) * float(hourly_rate) # changes these to a float so the program will run
+print("Pay:", pay)
