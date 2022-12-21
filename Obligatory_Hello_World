@@ -1,0 +1,4 @@
+print("Hello, World!")
+name = input("Human, what is your name? ") # Asks user to input their name
+
+print("Good to meet you," , name + "!") # Prints user's name as input
